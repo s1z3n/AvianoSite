@@ -1,0 +1,11 @@
+markdown: redcarpet
+# baseurl: /TriAset
+exclude: ['README.md']
+permalink: pretty
+
+port: 4000
+
+
+sass:
+ sass_dir: assets/css
+ style: :nested
