@@ -306,11 +306,12 @@ header {
     display: flex;
     justify-content: space-between; }
     header nav .logo {
-      height: 65px;
-      width: 150px;
-      background: url(/Aviano/assets/images/favicon.png);
-      background-size: cover;
-      margin: 5px 20px; }
+      height: 50px;
+      width: 170px;
+      background: url(../images/aviano-logo.png);
+      background-size: contain;
+      margin: 16px 20px;
+      background-repeat: no-repeat; }
     header nav .nav-main {
       display: flex;
       flex-direction: row;
@@ -331,7 +332,9 @@ header {
       header nav .nav-main #contact {
         border: 1px solid #FFD93B;
         padding: 10px 40px;
-        color: #FFD93B;
+        background-color: #FFD93B;
+        color: #777;
+        font-weight: 500;
         margin-left: 30px; }
         header nav .nav-main #contact:hover {
           background-color: #FFD93B;
@@ -857,7 +860,7 @@ a.contact-btn {
         background-color: #f6f6f8; }
       .modal-bg .modal-box .map a {
         font-size: 18px;
-        color: white;
+        color: black;
         font-weight: 500; }
 
 @media (max-width: 600px) {
@@ -1273,7 +1276,8 @@ section.solution.bank-3 {
     background-attachment: inherit; } }
 
 section.solution {
-  height: auto; }
+  height: auto;
+  padding-top: 200px; }
   section.solution div div {
     padding-left: 20px;
     padding-right: 20px; }

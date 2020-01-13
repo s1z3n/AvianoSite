@@ -20,10 +20,11 @@ header
 
 		.logo
 
-			+size(150px 65px)
-			background: url(/Aviano/assets/images/favicon.png)
-			background-size: cover
-			margin: 5px 20px
+			+size(170px 50px)
+			background: url(../images/aviano-logo.png)
+			background-size: contain
+			margin: 16px 20px
+			background-repeat: no-repeat
 
 
 		.nav-main
@@ -50,7 +51,9 @@ header
 			#contact
 				border: 1px solid $accent-color
 				padding: 10px 40px
-				color: $accent-color
+				background-color: $accent-color
+				color: #777
+				font-weight: 500
 				margin-left: 30px
 				&:hover
 					background-color: $accent-color
