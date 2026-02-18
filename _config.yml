@@ -1,5 +1,6 @@
 markdown: redcarpet
-baseurl: /AvianoSite
+baseurl: ""
+url: "https://www.aviano.cc"
 exclude: ['README.md']
 permalink: pretty
 # a
