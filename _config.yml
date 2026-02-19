@@ -1,6 +1,6 @@
 markdown: redcarpet
 baseurl: ""
-url: "https://www.aviano.cc"
+url: "https://aviano.cc"
 exclude: ['README.md']
 permalink: pretty
 # a
