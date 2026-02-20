@@ -1,7 +1,9 @@
 markdown: redcarpet
 baseurl: ""
 url: "https://aviano.cc"
-exclude: ['README.md']
+exclude:
+  - README.md
+  - vendor
 permalink: pretty
 # a
 port: 4000
